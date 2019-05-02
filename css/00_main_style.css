@@ -1,0 +1,136 @@
+body {
+    background-color : #2B2B2B;
+    color            : lightgray;
+    font             : 12pt Calibri;
+    min-width        : 820px;
+}
+
+a {
+    color           : dodgerblue;
+    text-decoration : none;
+}
+
+a:visited {
+    color           : dodgerblue;
+    text-decoration : none;
+}
+
+.topnav {
+    /*background-color : black;*/
+    background-image : linear-gradient(to right, #000066, black);
+    border           : 1px solid darkslategray;
+    overflow         : hidden;
+    padding          : 10px 10px;
+    vertical-align   : center;
+    text-align       : left;
+}
+
+.topnav a {
+    color           : lightgray;
+    text-align      : center;
+    padding         : 14px 16px;
+    text-decoration : none;
+    font-size       : 14pt;
+}
+
+.topnav a:hover {
+    background-color : lightgray;
+    color            : black;
+}
+
+.topnav a.active {
+    background-color : darkslategray;
+    border           : 1px solid;
+    color            : lightgray;
+}
+
+.topnav a.logged_in {
+    font-size : 12pt;
+}
+
+.topnav a.logged_in:hover {
+    background-color : transparent;
+    color            : lightgray;
+}
+
+/* TABLE */
+table {
+    border         : 0px solid darkgray;
+    border-spacing : 0px;
+    width          : 810px;
+}
+
+table.no_border, table.no_border th, table.no_border td {
+    width  : auto;
+    border : 0px solid;
+}
+table.min_left tr td:first-child {
+    width: 10px;
+}
+
+/* TABLE HEADER */
+th {
+    border  : 1px solid darkgray;
+    padding : 10px;
+}
+
+/* TABLE DATA */
+td {
+    border  : 1px solid darkgray;
+    padding : 4px 6px;
+}
+
+td.right {
+    text-align : right;
+}
+
+td.radio {
+    text-align : center;
+}
+
+td.submit {
+    text-align : center;
+}
+
+.center {
+    text-align : center;
+}
+
+input.num {
+    width : 100%;
+}
+
+select {
+    width : 100% !important;
+}
+
+select.rating {
+    width : auto !important;
+}
+
+div.green_msg {
+    background-color : darkgreen;
+    width            : 810px;
+    padding          : 8px;
+}
+
+div.red_msg {
+    background-color : darkred;
+    width            : 810px;
+    padding          : 8px;
+}
+
+div.notification {
+    background-color : darkorange;
+    color            : black;
+    font-weight      : bold;
+    width            : 810px;
+    padding          : 8px;
+}
+textarea {
+    width: 100%;
+    height: 600px;
+}
+.max {
+    width: 100%;
+}
